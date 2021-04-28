@@ -1,0 +1,37 @@
+					Group Project
+
+Design and implement a network using Packet Tracer to Model the following
+network:
+Include TWO networks – the Dublin HQ and the Galway office.
+
+In the main Dublin office implement the following:
+a) Create different VLANs (at least 4 VLANs – name these with relevant departments e.g. SALES,
+MARKETING etc)
+b) Implement inter-VLAN communication between all of these VLANs.
+c) Implement rapid spanning tree between switches.
+d) Show evidence of Etherchannel being implemented (add links to implement this)-ensure the
+root bridge is in a suitable position in the network.
+e) Configure a highly available secure wireless access for a GUEST wifi network in the main
+Dublin office. Show evidence of these PC’s connecting to the network (ensure that PC’s
+connect using DHCP).
+
+On the WAN:
+f) The organization requires you to create a WAN network bridging across their different sites.
+Each site has a WAN connection and all other sites will need to be connected e.g. Cork,
+Limerick, Athlone. The IT infrastructure manager has specified your main concern is the
+interconnection of Dublin and Galway sites but you are required to route through other sites to
+connect Dublin to Galway. Create a WAN network using private addresses from the 10.0.0.0
+network which must provide connectivity to the Galway office. This WAN network will include
+a redundant path from the Dublin office through the Sligo office to Galway. However, this
+redundant path is known to have a slow connection.
+g) Utilizing a routing protocol of your choice to ensure all Dublin HQ PC’s can communicate with
+the Galway branch. (note more points will be awarded for ability to demonstrate control of
+traffic through the network). Ensure that the main gateway router can be managed remotely
+from the Dublin site using a secure protocol (SSH protocol).
+
+In the Galway office:
+h) Create a small LAN in the Galway office showing at least 2 switches and multiple PC’s.
+i) Implement HSRP and provide redundant default gateways for end-user devices within the
+network if one of the routers fails.
+j) Ensure all PCs in the Galway office can communicate with PC’s / servers in the Dublin’s
+office.
